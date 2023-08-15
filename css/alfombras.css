@@ -1,0 +1,17 @@
+@import 'style2sillones.css';
+
+/***********************************
+************************************
+HEADER
+************************************
+***********************************/
+
+.header {
+  background: url('../img/carpetas.webp') no-repeat fixed;
+  background-size: cover;
+  min-height: 650px;
+  position: relative;
+}
+
+
+

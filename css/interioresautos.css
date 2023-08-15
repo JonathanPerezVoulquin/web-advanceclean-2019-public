@@ -1,0 +1,25 @@
+
+@import 'style2sillones.css';
+/***********************************
+************************************
+HEADER
+************************************
+***********************************/
+
+.underlineText{
+  text-decoration: underline;
+  text-decoration-color: #bd9d22;
+  color:#bd9d22;
+}
+
+.header {
+  background: url('../img/limpieza-interior-auto-advance-clean.webp') no-repeat fixed;
+  background-size: cover;
+  min-height: 650px;
+  position: relative;
+}
+
+.content{
+  justify-content: center;
+  text-align: left;
+}

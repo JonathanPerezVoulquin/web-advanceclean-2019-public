@@ -1,0 +1,66 @@
+/* Estilos para el nav con fondo gris oscuro y letras blancas */
+.navbar {
+    background-color: #333; /* Color de fondo gris oscuro */
+}
+
+/* Estilo para los enlaces activos y enlaces normales en el navbar */
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7); /* Color de letras gris tenue */
+    transition: color 0.3s; /* Transición de color */
+}
+
+/* Estilo para los enlaces activos en el navbar */
+.navbar-nav .nav-link.active-link,
+.navbar-nav .nav-link:hover {
+    color: #fff; /* Color de letras blanco */
+}
+
+/* Estilo para el logotipo del nav */
+.navbar-brand {
+    color: #ffffff; /* Color de letras blanco */
+}
+
+/* Estilos para la sección de contacto */
+.section-bg {
+    background-color: #333; /* Color de fondo gris oscuro */
+    color: #ffffff; /* Color de letras blanco */
+    padding: 30px 0; /* Espaciado interno superior e inferior */
+}
+
+/*Estilos form */
+.form-control[type="number"] {
+    
+    color: #333; /* Color de letras blanco */
+}
+
+/* Estilos para los formularios de contacto */
+.form-group input,
+.form-group textarea {
+    background-color: rgba(255, 255, 255, 0.1); /* Color de fondo semi-transparente para los campos */
+    border: none; /* Sin borde */
+    color: #ffffff; /* Color de letras blanco */
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Color del marcador de posición semi-transparente */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    background-color: rgba(255, 255, 255, 0.3); /* Color de fondo semi-transparente al enfocar */
+}
+
+/* Estilos para la sección de resultado */
+#resultado-section {
+    background-color: #333; /* Fondo gris */
+    color: white; /* Letras en color blanco */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para los números dentro de la sección de resultado */
+#resultado-section input[type="text"] {
+    color: black; /* Números en color negro */
+}
+
