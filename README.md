@@ -7,7 +7,7 @@ page created in 2019 (public version) with some .php files ignored with .gitigno
 to give it a little more dynamism with some buttons the lead to whatsapp and calls
 > ![carrousel](https://private-user-images.githubusercontent.com/76247835/260291676-23098555-d52c-467a-91ef-09888aa954a6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTIxNDgzOTYsIm5iZiI6MTY5MjE0ODA5NiwicGF0aCI6Ii83NjI0NzgzNS8yNjAyOTE2NzYtMjMwOTg1NTUtZDUyYy00NjdhLTkxZWYtMDk4ODhhYTk1NGE2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA4MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwODE2VDAxMDgxNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTcyZDc1ZGViZWFkMGIzNmI0YmU0NGZmYTM5OGJjODdlY2I0NzNlYjI0OGUyNjM5ZjkxZGQ5MDEyYWUyZGM2OGYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.K9C3j_Yr3wB6c8nYwSfFviTGA7S7sAaLBavtm4fdPFU)
 
-# Adding a contact form 
+# Adding a contact form some PHP, JavaScript Fetch
 I made a contact form with the inputs name, email, subject and message.
 The form has a form = action ="process-form.php" 
 which in turn is captured by js fetch medi, which is responsible for doing the request without reloading the page
