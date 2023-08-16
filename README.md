@@ -70,7 +70,15 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(error => {
             statusMessage.innerHTML = "Ocurrió un error inesperado."; // Manejo de errores
         });
+
     });
 });
 ```
+# Calculator with PHP, JS and HTML
 
+It is a cost simulator, which has all the logic of the calculator in php, and is implemented in js and html5.
+The route to test it is the following:
+https://www.advanceclean.com.ar/calculadora.html.
+It is not indexed because it is not for public use even without improving the appearance and making a login
+
+> ![github2](https://private-user-images.githubusercontent.com/76247835/260291447-22adf166-2c6d-468b-8d2a-01135334bc22.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTIxNTI0NjIsIm5iZiI6MTY5MjE1MjE2MiwicGF0aCI6Ii83NjI0NzgzNS8yNjAyOTE0NDctMjJhZGYxNjYtMmM2ZC00NjhiLThkMmEtMDExMzUzMzRiYzIyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA4MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwODE2VDAyMTYwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNlYjU5ZDdiY2FmY2IyZjVkNzA5YjBiZWIyMzNhZjIyN2U0ZWI0MjEwNmM3MmMyMmNjODQwMDRiZWE0ZDFjZWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.QGnTRxv8QMPPnpGyWwT7YQQ3gyw-He0e6wS5MwJS3AE)
