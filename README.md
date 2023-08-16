@@ -5,15 +5,18 @@ page created in 2019 (public version) with some .php files ignored with .gitigno
 
 # Adding a slider 
 to give it a little more dynamism with some buttons the lead to whatsapp and calls
-> ![carrousel](https://private-user-images.githubusercontent.com/76247835/260291676-23098555-d52c-467a-91ef-09888aa954a6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTIxNDgzOTYsIm5iZiI6MTY5MjE0ODA5NiwicGF0aCI6Ii83NjI0NzgzNS8yNjAyOTE2NzYtMjMwOTg1NTUtZDUyYy00NjdhLTkxZWYtMDk4ODhhYTk1NGE2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA4MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwODE2VDAxMDgxNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTcyZDc1ZGViZWFkMGIzNmI0YmU0NGZmYTM5OGJjODdlY2I0NzNlYjI0OGUyNjM5ZjkxZGQ5MDEyYWUyZGM2OGYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.K9C3j_Yr3wB6c8nYwSfFviTGA7S7sAaLBavtm4fdPFU)
+
+![carrousel](https://github.com/JonathanPerezVoulquin/web-advanceclean-2019-public/assets/76247835/b4aa1b96-ad51-4edc-8efb-686773ddc960)
 
 # Adding a contact form some PHP, JavaScript Fetch
 I made a contact form with the inputs name, email, subject and message.
 The form has a form = action ="process-form.php" 
 which in turn is captured by js fetch medi, which is responsible for doing the request without reloading the page
-> ![github](https://private-user-images.githubusercontent.com/76247835/260291300-2f2863da-3703-4f5a-928e-430569e1e226.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTIxNDg2OTMsIm5iZiI6MTY5MjE0ODM5MywicGF0aCI6Ii83NjI0NzgzNS8yNjAyOTEzMDAtMmYyODYzZGEtMzcwMy00ZjVhLTkyOGUtNDMwNTY5ZTFlMjI2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA4MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwODE2VDAxMTMxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYzMzMwNDI5OTZmOWE2ZTcyNWRkNDdlYzIwYTY0ZjNkYjllMTk2NmE0N2M5N2ExZWM2YTViZmNlOTAxYWJjODcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.AC86yT6jKC46r2iAPNKm7gXI5mCDQbHFiYmgLvGGJaw)
+
+
 
 ## Example Form:
+url: https://www.advanceclean.com.ar/limpieza-de-sillones-y-tapizados.html
  ```html
 <form action="process_form.php" method="POST" id="contactForm">
                 <div class="col-md-6 padding-right-zero">
@@ -44,6 +47,7 @@ which in turn is captured by js fetch medi, which is responsible for doing the r
                 </div
 </form>
 ```
+![contact form](https://github.com/JonathanPerezVoulquin/web-advanceclean-2019-public/assets/76247835/02f9146d-00f9-4f7c-a025-396c63c33143)
 
 ## Example FETCH JavaScript:
 ```javascript
@@ -80,5 +84,4 @@ It is a cost simulator, which has all the logic of the calculator in php, and is
 The route to test it is the following:
 https://www.advanceclean.com.ar/calculadora.html.
 It is not indexed because it is not for public use even without improving the appearance and making a login
-
-> ![github2](https://private-user-images.githubusercontent.com/76247835/260291447-22adf166-2c6d-468b-8d2a-01135334bc22.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTIxNTI0NjIsIm5iZiI6MTY5MjE1MjE2MiwicGF0aCI6Ii83NjI0NzgzNS8yNjAyOTE0NDctMjJhZGYxNjYtMmM2ZC00NjhiLThkMmEtMDExMzUzMzRiYzIyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA4MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwODE2VDAyMTYwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNlYjU5ZDdiY2FmY2IyZjVkNzA5YjBiZWIyMzNhZjIyN2U0ZWI0MjEwNmM3MmMyMmNjODQwMDRiZWE0ZDFjZWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.QGnTRxv8QMPPnpGyWwT7YQQ3gyw-He0e6wS5MwJS3AE)
+![calculadora precios](https://github.com/JonathanPerezVoulquin/web-advanceclean-2019-public/assets/76247835/71ce7caf-d7c9-4932-9de0-7ecb8a430808)
